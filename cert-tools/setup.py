@@ -33,6 +33,7 @@ setup(
             'create-certificate-template_v3 = cert_tools.create_v3_alpha_certificate_template:main',
             'instantiate-certificate-batch = cert_tools.instantiate_v2_certificate_batch:main',
             'instantiate-certificate-batch_v3 = cert_tools.instantiate_v3_alpha_certificate_batch:main',
-            'create-issuer = cert_tools.create_v2_issuer:main'
+            'create-issuer = cert_tools.create_v2_issuer:main',
+            'create-revocation-addresses = cert_tools.create_revocation_addresses:main'
         ]}
 )
