@@ -10,8 +10,8 @@ with open('requirements.txt') as f:
     install_reqs = f.readlines()
     reqs = [str(ir) for ir in install_reqs]
 
-with open(os.path.join(here, 'README.md')) as fp:
-    long_description = fp.read()
+with open(os.path.join(here, 'README.md'), encoding="utf8") as fp:
+    long_description = fp.read( )
 
 setup(
     name='cert-tools',

@@ -150,7 +150,7 @@ The detailed steps are described in the [verification process](https://github.co
 
 ## What should be in a batch?
 
-How a batch is defined can vary, but it should be defined such that it changes infrequently. For example, “2016 MIT grads” would be preferred over “MIT grads” (the latter would have to be updated every year). The size of the batch is limited by the 100KB maximum transaction size imposed by the Bitcoin network. This will amount to a maximum of around 2,000 recipients per certificate batch.
+How a batch is defined can vary, but it should be defined such that it changes infrequently. For example, 2016 MIT grads would be preferred over MIT grads(the latter would have to be updated every year). The size of the batch is limited by the 100KB maximum transaction size imposed by the Bitcoin network. This will amount to a maximum of around 2,000 recipients per certificate batch.
 
 ## Transaction structure
 
