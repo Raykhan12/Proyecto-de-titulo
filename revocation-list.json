@@ -4,7 +4,7 @@
     "type": "RevocationList",
     "issuer": "https://raw.githubusercontent.com/Raykhan12/Proyecto-de-titulo/master/issuer.json",
     "revokedAssertions": [{
-        "id": "urn:uuid:82a4c9f2-3588-457b-80ea-da695571b8fc",
+        "id": "urn:uuid:3bc1a96a-3501-46ed-8f75-49612bbac257",
         "revocationReason": "Honor code violation"
       },
       {
