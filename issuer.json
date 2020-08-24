@@ -11,7 +11,7 @@
   "publicKey": [
     {
       "id": "ecdsa-koblitz-pubkey:0xe259659bc8d92b97fe7a5295079a1a5bd3bf5d16",
-      "created": "2020-08-24T17:37:15.472026+00:00"
+      "created": "2020-08-24T17:41:11.103688+00:00"
     }
   ],
   "revocationList": "https://raw.githubusercontent.com/Raykhan12/Proyecto-de-titulo/master/revocation-list.json",
