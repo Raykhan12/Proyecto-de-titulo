@@ -1,0 +1,68 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+ 
+    <title>Certificados </title>
+ 
+  	  {# Cargamos la librería #}
+   {% load bootstrap4 %}
+ 
+   {# CSS Bootstrap #}
+   {% bootstrap_css %}
+ 
+ 
+  </head>
+  <style>
+    body {
+        background: url('https://rfpro.mx/wp-content/uploads/2020/07/blockchain-3508589_1920.png') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+</style>
+
+  <body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="font-weight-bolder" >Certificados Blockchain</h1>
+          <p>Certificados almacenados en la red ethereum ropsten</p>
+        </div>
+      </div>
+
+    <div class="container p-3 my-3 bg-primary text-white">
+      <h1>Subir listado de alumnos</h1>
+      <p>Arrastra el archivo o buscalo en tu computador</p>
+
+          <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <input type="file" name="myfile">
+            <button type="submit">Crear Certificados Blockchain</button>
+          </form>
+      <table class="table">  
+        {% for file1 in file_list %}
+        <tr>
+
+          <td>
+            
+             {{ file1 }}
+          </td>
+
+        </tr>
+        
+          
+        {% endfor %}
+      </table>
+       
+    </div>  
+
+
+
+    {# JS y jQuery Bootstrap #}
+    {% bootstrap_javascript jquery='full' %}
+
+
+  </body>
